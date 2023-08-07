@@ -11,6 +11,9 @@ const go = () => {
 
   const dayElement = document.querySelector(`[data-day="${day}"]`);
   dayElement.classList.add("today");
+
+  const todayElement = document.getElementById("today");
+  todayElement.innerHTML = date.toDateString();
 };
 
 setTimeout(go, 0);

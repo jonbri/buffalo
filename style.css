@@ -42,3 +42,13 @@ a:active {
 .today {
   background-color: gold;
 }
+
+.calendar {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.calendar img {
+  border-radius: 5px;
+  width: 300px;
+}
