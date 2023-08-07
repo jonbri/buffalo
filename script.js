@@ -14,6 +14,8 @@ const go = () => {
 
   const todayElement = document.getElementById("today");
   todayElement.innerHTML = date.toDateString();
+  const todayElementRepeat = document.getElementById("today-repeat");
+  todayElementRepeat.innerHTML = date.toDateString();
 };
 
 setTimeout(go, 0);
