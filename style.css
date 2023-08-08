@@ -34,6 +34,10 @@ a:active {
   background-color: silver;
 }
 
+.meal {
+  font-weight: bold
+}
+
 .todo {
   color: red;
   font-weight: bold;
@@ -47,4 +51,5 @@ a:active {
 }
 .calendar img {
   border-radius: 5px;
+  width: 50%;
 }
