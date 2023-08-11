@@ -41,7 +41,9 @@ h1 {
   border-bottom: 1px solid black;
 }
 .day:hover {
-  background-color: silver;
+  /* background-color: silver; */
+  /* border: 20px solid gold; */
+  background-color: orange;
 }
 
 .meal {
